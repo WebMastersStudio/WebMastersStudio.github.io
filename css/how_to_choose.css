@@ -18,6 +18,9 @@ a:hover:hover {
 .wow { visibility: hidden; }
 
 .full_size_background {
+  -webkit-background-size: cover!important;
+  -moz-background-size: cover!important;
+  -o-background-size: cover!important;
   background-size: cover!important;
   background-repeat: no-repeat!important;
   background-position: bottom!important;
