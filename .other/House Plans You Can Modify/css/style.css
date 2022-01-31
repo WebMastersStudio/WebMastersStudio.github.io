@@ -1,0 +1,450 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.d-flex {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+
+
+
+
+/* ### HEADER ### */
+
+
+
+
+/* ### FIRST SCREEN ### */
+
+#first-screen {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 100px;
+}
+
+
+#first-screen > .shop_house-plans-block {
+  background: #F0ECDB;
+  width: 100%;
+  height: 286px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+
+#first-screen h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  padding-top: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#first-screen h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#first-screen h6 a {
+  text-decoration: none;
+  color: #000;
+}
+
+#first-screen h6 a:last-child {
+  color: #AD936D;
+}
+
+
+
+
+
+
+
+
+
+
+
+#placeholder {
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer {
+  width: 100%;
+  max-width: 435px;
+}
+
+#placeholder h2 {
+  font-family: Lustria;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 25px;
+  margin-bottom: 0;
+  margin-top: 0px;
+  text-transform: capitalize;
+}
+
+#placeholder h3 {
+  font-family: Lustria;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-decoration-line: underline;
+  margin-top: 50px;
+}
+
+
+#placeholder p {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 25px;
+}
+
+
+#placeholder li {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.item {
+  margin: 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#content {
+  width: 90%;
+  margin: auto;
+}
+
+#content h2 {
+  font-family: Lustria;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 25px;
+  margin-bottom: 0;
+  margin-top: 120px;
+}
+
+#content h3 {
+  font-family: Lustria;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-decoration-line: underline;
+  margin-top: 50px;
+}
+
+
+#content p {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 25px;
+}
+
+
+#content li {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 25px;
+}
+
+
+
+
+
+
+
+
+#form {
+  width: 90%;
+  max-width: 570px;
+  margin: 100px 0 100px 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#form h2 {
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 56px;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+#form > .row {
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+#form > .row > * {
+  width: 100%;
+  max-width: 278px;
+  box-sizing: border-box;
+  height: 42px;
+  font-family: 'Open Sans';
+}
+
+#form input {
+  border: 2px solid #000;
+  background: #F7F7F7;
+  padding: 10px;
+  font-size: 14px;
+  color: #454545;
+  box-sizing: border-box;
+}
+
+#form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid #000;
+  background: #F7F7F7;
+  padding: 10px;
+  font-size: 14px;
+  color: #454545;
+}
+
+#form button {
+  background: #454545;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ### FOOTER ### */
+
+footer {
+  width: 100%;
+  margin: auto;
+  color: #000;
+  padding: 0;
+  padding-bottom: 100px;
+}
+
+footer > img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  max-width: 367px;
+}
+
+
+
+footer .logo {
+  display: block;
+  margin: auto;
+  height: auto;
+}
+
+footer p {
+  font-family: 'Lustria', serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+footer .row {
+  width: 292px;
+  margin: auto;
+}
+
+footer .row p:last-child {
+  padding-left: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ### -------------------- ADDAPYIVE -------------------- ### */
+
+
+
+
+
+@media (min-width: 480px) and (max-width: 969px) {
+
+  
+
+  #first-screen h1 {
+    font-size: 30px;
+  }
+
+  #placeholder {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  #form {
+    width: 100%;
+    margin: 100px auto 100px auto;
+  }
+
+  #form > .row > * {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  footer h2 {
+    font-size: 30px;
+  }
+
+  footer h3 {
+    font-size: 22px;
+  }
+
+  footer nav {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  footer nav a {
+    text-align: center;
+    padding: 5px;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 479px) {
+
+  #first-screen {
+    margin-top: 30px;
+  }
+
+  #placeholder {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  #form {
+    width: 100%;
+    margin: 100px auto 100px auto;
+  }
+
+  #form > * {
+    margin: 10px auto;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  #form > .row > * {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #first-screen h1 {
+    font-size: 22px;
+  }
+
+
+  footer h2 {
+    font-size: 30px;
+  }
+
+  footer h3 {
+    font-size: 22px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ### -------------------- THE END-------------------- ### */
