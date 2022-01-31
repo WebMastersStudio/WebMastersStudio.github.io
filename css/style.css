@@ -233,7 +233,6 @@ header nav a:last-child {
   height: 425px;
   -o-object-fit: cover;
   object-fit: cover;
-  background-attachment: fixed;
   animation: title-img 3s cubic-bezier(0, .38, .86, 1);
 }
 

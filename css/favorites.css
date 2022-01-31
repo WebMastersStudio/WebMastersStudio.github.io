@@ -693,7 +693,6 @@ footer {
   background: #262626;
   color: #fff;
   padding: 0;
-  background-attachment: fixed;
   position: fixed;
   bottom: 0;
   z-index: -1;
