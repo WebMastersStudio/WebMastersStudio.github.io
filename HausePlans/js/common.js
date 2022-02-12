@@ -120,7 +120,9 @@ $(document).ready(function(){
   var target = $('.footer-empty-place');
   var targetPos = target.offset().top;
   var winHeight = $(window).height();
-  var scrollToElem = targetPos;
+  var scrollToElem = targetPos - winHeight;
+  alert("targetPos = " + targetPos);
+  alert("winHeight = " + winHeight);
   $(window).scroll(function(){
     var winScrollTop = $(this).scrollTop();
     if(winScrollTop > scrollToElem){
