@@ -27,6 +27,16 @@ $(document).ready(function(){
 
 
 
+  $(".home_item").click(function(){
+    numIndex = $(this).index();
+    $(".home_item").removeClass("home_item_active");
+    $(".home_item:eq(" + numIndex + ")").addClass("home_item_active");
+    $(".page-title-inner_comment").removeClass("page-title-inner_comment__activ");
+    $(".page-title-inner_comment:eq(" + numIndex + ")").addClass("page-title-inner_comment__activ");
+  });
+
+
+
 
 
 
@@ -128,16 +138,7 @@ $(document).ready(function(){
 
 
 
-  var target_st = $('.sail-title>h3');
-  var targetPosSt = target_st.offset().top;
-  var scrollToElemSt = targetPosSt - winHeight;
-  $(window).scroll(function(){
-    var winScrollTopSt = $(this).scrollTop();
-    if(winScrollTopSt > scrollToElemSt){
-      $(".st-border-top").addClass("st-border-top-active");
-      $(".st-border-bot").addClass("st-border-bot-active");
-    }
-  });
+ 
     
 
 
