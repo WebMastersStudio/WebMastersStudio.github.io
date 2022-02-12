@@ -369,6 +369,10 @@ header nav a:last-child {
   padding-bottom: 20px;
 }
 
+.bottom-hr {
+  margin-bottom: 0;
+}
+
 .home_item {
   width: 15px;
   height: 2px;
